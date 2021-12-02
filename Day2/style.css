@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dancing+Script:wght@400;500;600;700&family=Euphoria+Script&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pinyon+Script&display=swap");
+
+/* body {
+  color: white;
+  background-color: black;
+  font-family: "Comforter Brush", cursive;
+}
+
+.unique_div {
+  color: red;
+}
+
+.kuchbhi {
+  color: green !important;
+}
+*/
+section {
+  background-color: grey;
+  font-size: 40px;
+}
+h1 {
+  background-color: yellow;
+}

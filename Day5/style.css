@@ -1,0 +1,150 @@
+/* DAY 4 */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.first__heading {
+  border: 10px solid black;
+  border-left: 15px solid grey;
+  border-right: 15px solid blue;
+  border-top: 10px solid red;
+  border-bottom: 10px solid forestgreen;
+
+  border-radius: 100px !important;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 40px;
+
+  font-size: 100px;
+  font-weight: 100;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+
+  line-height: 1.5;
+  letter-spacing: -2px;
+  text-transform: lowercase;
+  text-transform: uppercase;
+  text-transform: capitalize;
+
+  text-align: left;
+  text-align: right;
+  text-align: center;
+
+  color: #555;
+}
+
+.first__section {
+  background: #eee;
+  background-color: #27ae60;
+  height: 100px;
+  width: 100px;
+  display: none;
+  display: block;
+  float: right;
+  float: left;
+}
+
+/* DAY 5 */
+.second-section {
+  border: 10px solid blue;
+  border: 10px ridge blue;
+  border: 10px dashed blue;
+  border: 10px dotted blue;
+  border: 10px inset blue;
+  border: 10px outset blue;
+  border: 10px groove blue;
+  border: 10px double blue;
+  /* border: none; */
+  height: auto;
+  height: 1px;
+  height: 1em;
+  height: 20rem;
+  /* 16px = 1rem */
+  overflow: hidden;
+  overflow: auto;
+}
+
+.second-section a {
+  text-decoration: none;
+  color: #ff7d04;
+  font-weight: 900;
+}
+
+.first__section {
+  cursor: pointer;
+  cursor: alias;
+  cursor: cell;
+  cursor: all-scroll;
+  cursor: copy;
+  cursor: crosshair;
+  cursor: grab;
+}
+
+.sea__ride_img,
+#person__1 {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.third__section {
+  border: 10px solid red;
+  /* pading -> ALL */
+  padding: 1rem;
+
+  /* padding -> (top and bottom)  (left and right) */
+  padding: 2rem 1rem;
+
+  /* padding -> top right bottom left */
+  padding: 3rem 1rem 4rem 2rem;
+
+  /* Padding -> Individually */
+  padding-left: 2rem;
+  padding-top: 5rem;
+  padding-right: 2rem;
+  padding-bottom: 5rem;
+
+  /* margin -> ALL */
+  margin: 1rem;
+
+  /* margin -> (top and bottom)  (left and right) */
+  margin: 2rem 1rem;
+
+  /* margin -> top right bottom left */
+  margin: 3rem 1rem 4rem 2rem;
+
+  /* MARGIN -> INDIVIDUALLY */
+  margin-top: 5rem;
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+}
+
+.third__section p {
+  text-align: center;
+  text-align: justify;
+}
+
+.search_icon {
+  color: blue;
+  font-size: 10rem;
+}
+
+.facebookIcon {
+  height: 100px;
+}
+
+.fifth__section {
+  height: 500px;
+}
+
+.fifth_Section_images {
+  clip-path: inset(5% 20% 15% 10%);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  clip-path: polygon(50% 0%, 58% 56%, 82% 100%, 29% 81%, 15% 46%);
+  clip-path: polygon(25% 0%, 75% 0%, 17% 49%, 75% 100%, 25% 100%, 74% 52%);
+}
