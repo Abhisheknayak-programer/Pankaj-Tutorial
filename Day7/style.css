@@ -1,0 +1,89 @@
+/********************/
+/* Fonts Used */
+/********************/
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;600&family=Corinthia&family=Roboto:wght@300;400;500&display=swap");
+/* font-family: 'Baloo Bhaijaan 2', cursive;
+font-family: 'Corinthia', cursive;
+font-family: 'Roboto', sans-serif; */
+
+/********************/
+/* Defaults */
+/********************/
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/********************/
+/* Variables */
+/********************/
+:root {
+  --black: #222;
+  --black-text: #333;
+  --mid-black-text: #444;
+  --light-black-text: #555;
+}
+
+:root {
+  /* Font sizes (px) => 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+  --paragraph-font: 1.6rem;
+  --low-font: 2rem;
+  --mid-font: 4rem;
+  --large-font: 6rem;
+}
+
+:root {
+  /* - Spacing system (px) => 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+  --high-spacing: 9.6rem;
+  --mid-spacing: 8rem;
+  --low-space: 6.4rem;
+}
+
+:root {
+  --font-1: "Roboto", sans-serif;
+}
+
+/********************/
+/* Selection */
+/********************/
+h1::selection {
+  background-color: black;
+  color: white;
+}
+
+/********************/
+/* Tags Defaults */
+/********************/
+p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-1);
+  font-weight: 600;
+}
+
+/********************************************************************************** */
+/********************************* PAGE CUSTOMIZATION *******************************/
+/********************************************************************************** */
+
+/************************/
+/* Navigation Bar css */
+/************************/
+
+/************************/
+/* First Section */
+/************************/

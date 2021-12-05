@@ -1,0 +1,66 @@
+/*****************************/
+/* Default Declaration */
+/*****************************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  /*   100% = 16px |  62.5% = 10px   */
+  font-size: 62.5%;
+}
+
+/*****************************/
+/* Variable Declaration */
+/*****************************/
+:root {
+  --myblackcolor: #343a40;
+  --pankajcolor: rgb(160, 4, 4);
+  --normal-font-size: 1.6rem;
+  --medium-font-size: 4rem;
+  --large-font-size: 6rem;
+}
+
+/*****************************/
+/* Custom Font Sizes*/
+/*****************************/
+#Pankaj h1,
+#Pankaj h2,
+#Pankaj h3 {
+  font-size: var(--medium-font-size);
+}
+
+p,
+a {
+  font-size: var(--normal-font-size);
+}
+
+/*****************************/
+/* Selection for tags*/
+/*****************************/
+#Pankaj h1::selection {
+  color: white;
+  background-color: var(--myblackcolor);
+}
+
+#Pankaj h2::selection {
+  color: yellow;
+  background-color: var(--myblackcolor);
+}
+
+a::selection,
+p::selection {
+  color: red;
+  background-color: none;
+}
+
+a::selection {
+  background-color: var(--myblackcolor);
+}
+
+.first__image::selection {
+  background-color: red;
+}
