@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.first__section {
+  padding: 2rem;
+}
+
+.first__section h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.first__section h1:hover {
+  color: red;
+  transform: scale(1.5);
+}
+
+.first__section span {
+  font-size: 2rem;
+}
+
+.first__section span:hover,
+.first__section p:hover {
+  font-size: 5rem;
+  color: blue;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.first__section p {
+  transform: skew(4deg);
+}
+
+.first__section p {
+  font-size: 1.6rem;
+  transition: all 1s ease;
+}
+
+.first__section button {
+  color: white;
+  background-color: rgb(0, 204, 255);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  transition: all 1s ease;
+}
+
+.first__section button:hover {
+  background-color: green;
+  transform: rotate(360deg);
+  transform: translateX(50px);
+  transform: translateY(50px);
+  transform: rotate(360deg) translateX(50px) translateY(50px);
+}
