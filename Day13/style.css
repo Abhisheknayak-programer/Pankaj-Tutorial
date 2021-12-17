@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.first_section {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 300px 250px 400px 500px;
+  grid-template-rows: 100px 200px 300px;
+  gap: 2rem;
+  row-gap: 4rem;
+  column-gap: 1rem;
+}
+
+.box {
+  border: 2px solid red;
+  font-size: 5rem;
+}

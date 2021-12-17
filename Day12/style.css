@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.first_section {
+  padding: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card_design {
+  display: inline-block;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+}
+.image_holder img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
