@@ -3,19 +3,53 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
 .first_section {
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 300px 250px 400px 500px;
-  grid-template-rows: 100px 200px 300px;
-  gap: 2rem;
-  row-gap: 4rem;
-  column-gap: 1rem;
+  width: 100%;
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box {
+  height: 250px;
+  width: 250px;
+  font-size: 8rem;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.box {
-  border: 2px solid red;
-  font-size: 5rem;
+/* EXACT RESPONSIVENESS BREAKPOINTS */
+/* DESTOP & LAPTOP WIDTH (1200px+) or also known as extra large */
+/* Small Laptops width (992px to 1200px) or also known as large*/
+/* Tablet width (768px to 992px) or also known as Medium*/
+/* Small sized tablets width (576px to 768px) or also known as small*/
+/* Big Mobile Phones width (360px to 576px)*/
+/* Mostly used Mobile phones width (280px to 360px) */
+
+@media (max-width: 1200px) {
+  .box {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 850px) {
+  .first_section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .box {
+    width: 400px;
+  }
+}
+@media (max-width: 450px) {
+  .box {
+    width: 250px;
+  }
+}
+@media (max-width: 280px) {
+  .box {
+    width: 100px;
+  }
 }
