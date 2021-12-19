@@ -1,0 +1,211 @@
+/* EXTERNAL FONTS IMPORTED HERE USING THIS LINK */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap");
+
+/* DEFAULTS */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+:root {
+  --navy-blue: #051e42;
+  --orange-color: #ff6b4a;
+  --overlay-color: rgba(63, 61, 86, 0.9);
+}
+:root {
+  --font-1: "Poppins", sans-serif;
+  --font-2: "Montserrat", sans-serif;
+}
+:root {
+  --big-space: 7.2rem;
+  --mid-space: 6rem;
+  --low-space: 4.2rem;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+body {
+  font-family: var(--font-2);
+}
+header {
+  font-family: var(--font-1);
+}
+
+/**************************/
+/* HEADER SECTION CSS */
+/**************************/
+.header_part_1 {
+  display: flex;
+  background-color: var(--navy-blue);
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+.header_part_1 a {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.header_part_1_box {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.fontAwesomeSocialMediaIcons {
+  font-size: 2.4rem;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 9rem;
+  height: 10vh;
+}
+.nav_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+.nav_link {
+  list-style: none;
+}
+.nav_link a {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--navy-blue);
+  transition: all 0.3s;
+}
+.nav_link a:hover {
+  color: var(--orange-color);
+  font-weight: 600;
+}
+
+.first_section {
+  /* height: 85vh; */
+  background: linear-gradient(var(--overlay-color), var(--overlay-color)),
+    url("../images/growth.png") center center/cover;
+  padding: 7rem;
+  display: flex;
+}
+
+.first_section_part_1 {
+  width: 50%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.first_section_part_1 h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+.first_section_part_1 h1 span {
+  font-weight: 600;
+}
+.highlighed_color {
+  color: var(--orange-color);
+  font-weight: 700;
+}
+.first_section_part_1 p {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.box_collector {
+  display: flex;
+  gap: 2rem;
+}
+.box {
+  background-color: #222;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.black_box_icons {
+  font-size: 3rem;
+}
+.box_inner_part_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.box_inner_part_2 h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.box_inner_part_2 span {
+  font-size: 1.6rem;
+}
+.first_section_part_2 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.form_layer {
+  background-color: #fff;
+  width: 80%;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.form_layer form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form_layer form .form__items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form_layer form .form__items label {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.form_layer form .form__items input,
+.form_layer form .form__items select,
+.form_layer form .form__items option {
+  border: none;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid #cfcfcf;
+  color: #cfcfcf;
+}
+
+.form_layer form .form__items option,
+.form_layer form .form__items select {
+  color: #000;
+}
+
+.form__items button {
+  background-color: var(--orange-color);
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 13px 2px #ffa997;
+}
