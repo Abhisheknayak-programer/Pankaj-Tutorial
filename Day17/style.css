@@ -1,0 +1,11 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.first_section {
+  border: 10px solid red;
+  padding: 4rem;
+  /* background-color: red; */
+}
