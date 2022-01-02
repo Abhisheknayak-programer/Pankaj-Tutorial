@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.first_section {
+  min-height: 100vh;
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #f6f6f6;
+}
+
+.color_heading {
+  font-size: 2rem;
+  color: crimson;
+  text-align: center;
+}
+
+.first_section button {
+  width: 20%;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.MakeChange {
+  background-color: #168172;
+}
+
+.SquareBox {
+  border: 10px ridge crimson;
+  width: 200px;
+  height: 200px;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
