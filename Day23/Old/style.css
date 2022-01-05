@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Metal+Mania&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-1: "Metal Mania", cursive;
+  --font-2: "Lobster", cursive;
+}
+
+.first_section {
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.box button {
+  font-family: var(--font-2);
+  font-size: 1.4rem;
+}
+.box p {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+.pankaj_ka_heading {
+  font-family: var(--font-1);
+}
+
+.myBtn {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .myBtn {
+    width: 50%;
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .kuchBhiColumn {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .first_section {
+    padding: 1.5rem;
+  }
+}
